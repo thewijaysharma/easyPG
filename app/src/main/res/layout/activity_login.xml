@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/housesbg"
+    tools:context="utility.classified.wijaysharma.easypg.LoginActivity">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:hint="Enter Username"
+        android:id="@+id/editText"
+        android:layout_above="@+id/editText2"
+        android:layout_below="@+id/imageView"
+        android:layout_toLeftOf="@+id/imgbutton"
+        android:layout_toStartOf="@+id/imgbutton"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="160dp"
+        android:layout_height="75dp"
+        android:text="LogIn"
+        android:id="@+id/button"
+        android:background="@drawable/loginbuttonblue"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/userloginimg"
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User? Click here to register"
+        android:id="@+id/textView"
+        android:textSize="22dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/imgbutton"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:textColorHint="#000066"
+        android:id="@+id/searchcityedittext"
+        android:hint="Enter city to search a P.G"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:id="@+id/imgbutton"
+        android:background="@drawable/search"
+        android:layout_alignTop="@+id/searchcityedittext"
+        android:layout_toRightOf="@+id/editText2"
+        android:layout_toEndOf="@+id/editText2" />
+
+</RelativeLayout>
+

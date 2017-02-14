@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="utility.classified.wijaysharma.easypg.Loggedin">
+
+    <item
+        android:id="@+id/postad"
+        android:orderInCategory="100"
+        android:title="Post a new Ad"
+        app:showAsAction="never" />
+     <item
+        android:id="@+id/editprofile"
+        android:orderInCategory="101"
+        android:title="Edit Profile"
+        app:showAsAction="never" />
+     <item
+        android:id="@+id/deleteads"
+        android:orderInCategory="102"
+        android:title="Delete an Ad"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/aboutus"
+        android:orderInCategory="103"
+        android:title="About Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/contactus"
+        android:orderInCategory="104"
+        android:title="Contact Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="105"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+</menu>

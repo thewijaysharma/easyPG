@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">EasyPg</string>
+    <string name="title_activity_register_now">RegisterNow</string>
+    <string name="title_activity_loggedin">Loggedin</string>
+    <string name="email">Email Address</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="title_activity_user_logged_in">UserLoggedIn</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_logout">Logout</string>
+    <string name="mess">&quot;EasyPG &quot; is the next generation of free online classifieds.\n
+        We act as a venue to allow our users, who comply with these Terms, to post ads of their Paying Guests Apartments (PGs).
+        \nThis app is dedicated to providing its users quality of PGs and Rooms at very low prices.
+        \nYou can post ads of your PGs or Flats, for free and directly deal with the buyer.
+        Our aim is to help students and people to find the best PG or room that fits best their requirements.
+        \n
+        \nAlthough you ore only be able to conduct payment and other transactions directly with the PG owner, &quot;EasyPG&quot; is not in any way involved in such transactions. As a result, you hereby acknowledge and agree that &quot;EasyPG&quot; is not a party to such transactions, has no control over any element of such transactions, and shall have no liability to any party in connection with such transactions.
+        You use the Service and the Website at your own risk</string>
+    <string name="aboutus">About Us</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="entercity">Your City</string>
+</resources>

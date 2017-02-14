@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/postadli"
+            android:icon="@drawable/ic_action_name2"
+            android:title="Post an Ad" />
+        <item
+            android:id="@+id/editprofileli"
+            android:icon="@drawable/ic_action_name3"
+            android:title="Edit Profile" />
+        <item
+            android:id="@+id/contactusli"
+            android:icon="@drawable/ic_action_name4"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/showmyads"
+            android:icon="@drawable/ic_action_name6"
+            android:title="My Ads" />
+    </group>
+
+</menu>

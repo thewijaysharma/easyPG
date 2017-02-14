@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/housesbg"
+    tools:context="utility.classified.wijaysharma.easypg.EditProfile">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/imageView4"
+        android:src="@drawable/finallogo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Edit Profile:"
+        android:textSize="22dp"
+        android:id="@+id/textView10"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp" />
+
+</RelativeLayout>
+    </ScrollView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText10"
+        android:hint="Password"
+        android:layout_marginBottom="44dp"
+        android:layout_above="@+id/textView15"
+        android:layout_alignRight="@+id/textView15"
+        android:layout_alignEnd="@+id/textView15" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Update Info"
+        android:id="@+id/button3"
+        android:layout_alignBottom="@+id/scrollView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="(Edit the field you want to update)"
+        android:id="@+id/textView15"
+        android:layout_marginBottom="47dp"
+        android:layout_above="@+id/button3"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:id="@+id/editText13"
+        android:hint="@string/entercity"
+        android:foregroundTintMode="multiply"
+        android:layout_above="@+id/editText10"
+        android:layout_alignLeft="@+id/editText10"
+        android:layout_alignStart="@+id/editText10" />
+
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText11"
+        android:hint="Change Email Address"
+        android:layout_above="@+id/editText13"
+        android:layout_alignLeft="@+id/editText13"
+        android:layout_alignStart="@+id/editText13" />
+
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:hint="Edit Name"
+        android:id="@+id/editText14"
+        android:layout_above="@+id/editText11"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Password:"
+        android:id="@+id/textView14"
+        android:layout_alignBottom="@+id/editText10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="City:"
+        android:id="@+id/textView13"
+        android:layout_alignBottom="@+id/editText13"
+        android:layout_toLeftOf="@+id/textView15"
+        android:layout_toStartOf="@+id/textView15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="E-mail:"
+        android:id="@+id/textView12"
+        android:layout_alignBottom="@+id/editText11"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name:"
+        android:id="@+id/textView11"
+        android:layout_alignBottom="@+id/editText14"
+        android:layout_alignRight="@+id/textView12"
+        android:layout_alignEnd="@+id/textView12" />
+
+</RelativeLayout>
